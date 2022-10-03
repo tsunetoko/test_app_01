@@ -55,7 +55,7 @@ try {
 <body class>
     <header>
         <nav>
-            <a href="index.php">商品管理アプリ</a>
+            <a href="index.html">商品管理アプリ</a>
         </nav>
     </header>
     <main>
