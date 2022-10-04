@@ -1,7 +1,7 @@
 <?php 
-$dsn = 'mysql://b595421a0f284e:646bdea7@us-cdbr-east-06.cleardb.net/heroku_c18254f736ad8c3?reconnect=true';
-$user = 'root';
-$passwd = 'root';
+$dsn = 'mysql:dbname=heroku_c18254f736ad8c3;host=us-cdbr-east-06.cleardb.net;charset=utf8mb4';
+$user = 'b595421a0f284e';
+$passwd = '646bdea7';
 try {
     $pdo = new PDO($dsn, $user, $passwd);
     // orderパラメータの値が存在すれば(並び替えボタンを押した時)その値を変数$orderに代入する
