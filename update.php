@@ -1,5 +1,5 @@
 <?php
-$dsn = 'mysql:dbname=php_db_app;host=localhost;charset=utf8mb4';
+$dsn = 'mysql://b595421a0f284e:646bdea7@us-cdbr-east-06.cleardb.net/heroku_c18254f736ad8c3?reconnect=true';
 $user = 'root';
 $passwd = 'root';
 // submitパラメータの値が存在する時(更新ボタンを押した時)の処理
